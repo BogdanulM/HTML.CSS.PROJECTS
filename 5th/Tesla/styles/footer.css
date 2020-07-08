@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 103px;
+}
+
+.footer > .copy {
+    color: white;
+}
+
+.footer > .footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+.footer > .footer-text a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.footer > .flag img {
+    width: 15px;
+}
