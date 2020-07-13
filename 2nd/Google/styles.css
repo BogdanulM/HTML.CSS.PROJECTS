@@ -150,3 +150,54 @@ footer a:visited {
     font-size: .8em;
     text-decoration: none;
 }
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    #logo img {
+        width: 300px;
+    }
+
+    #search-box {
+        width: 300px;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    #search-box {
+        width: 355px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    #search-box {
+        width: 405px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+    }
+
+    footer ul {
+        padding-left: 0px;
+    }
+
+    #footer-left {
+        margin: 0px;
+    }
+
+    #footer-right {
+        margin: 0px;
+        padding-right: 13px;
+    }
+
+}
